@@ -6,7 +6,11 @@
       We could not find an exact match for the address
     @endslot
 
-    Here are a couple of options
+    @if (count($results) > 1)
+        Here are a couple of options
+    @else
+        This is the best match we could find
+    @endif
   @endcomponent
 
   @foreach ($results as $result)
