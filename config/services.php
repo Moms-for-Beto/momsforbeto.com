@@ -30,4 +30,8 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'geocodio' => [
+        'api_key' => env('GEOCODIO_API_KEY')
+    ]
+
 ];
