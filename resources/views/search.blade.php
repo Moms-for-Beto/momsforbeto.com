@@ -8,8 +8,8 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   </head>
 <body>
-  <div class="w-full max-w-lg mx-auto mt-8">
-    <h1 class="text-2xl font-bold mb-4">Address lookup</h1>
+  <div class="w-full max-w-lg px-4 sm:p-0 sm:mx-auto mt-2 sm:mt-8">
+    <h1 class="text-2xl font-bold mb-2 sm:mb-4">Address lookup</h1>
 
     @include('partials.form')
 
