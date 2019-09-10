@@ -25,6 +25,8 @@
         @include('partials.results', ['results' => $results])
       @endif
     @endif
+
+    @include('partials.footer')
   </div>
 </body>
 </html>
