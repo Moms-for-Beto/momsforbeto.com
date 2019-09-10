@@ -9,7 +9,7 @@
   </head>
 <body>
   <div class="w-full max-w-lg mx-auto mt-8">
-    <h1 class="text-2xl font-bold mb-4">Look up congressional district and county</h1>
+    <h1 class="text-2xl font-bold mb-4">Address lookup</h1>
 
     @include('partials.form')
 
