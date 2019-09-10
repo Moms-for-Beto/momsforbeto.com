@@ -1,4 +1,4 @@
-<div class="bg-{{ $result->accuracy >= 0.7 ? 'green': 'orange' }}-100 rounded-lg overflow-hidden border border-{{ $result->accuracy >= 0.7 ? 'green': 'orange' }}-200 mb-4">
+<div class="bg-{{ $result->accuracy >= 0.7 ? 'green': 'orange' }}-100 border-l-4 border-{{ $result->accuracy >= 0.7 ? 'green': 'orange' }}-500 text-{{ $result->accuracy >= 0.7 ? 'green': 'orange' }}-700 mb-4">
 
     <iframe src="https://maps.geocod.io/#{{ $result->location->lat }},{{ $result->location->lng }}" class="w-full" height="200"></iframe>
 
