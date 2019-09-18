@@ -10,12 +10,13 @@
     "require": {
         "php": "^7.2",
         "fideloper/proxy": "^4.0",
+        "geocodio/geocodio-library-php": "^1.0.1",
         "laravel/framework": "^6.0",
         "laravel/tinker": "^1.0",
         "laravel/vapor-core": "^1.0"
     },
     "require-dev": {
-        "facade/ignition": "^1.4",
+    "facade/ignition": "^1.4",
         "fzaninotto/faker": "^1.4",
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^3.0",
